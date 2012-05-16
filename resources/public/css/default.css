@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    background-color: #222222;
+    font-family: helvetica, arial, clean, sans-serif;
+}
+
+#topbar {
+    height: 50px;
+    border-bottom: 1px solid #f86005;
+    font-size: 20px;
+    background-color: #222222;
+    z-index: 2000;
+}
+
+#topbar #icon a {
+    display: block;
+    color: white;/*#f86005;*/
+    padding-top: 15px;
+    padding-left: 10px;
+    border-right: 1px solid #f86005;
+    width:  50px;
+    height: 36px;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    cursor: hand;
+}
+
+#topbar #icon a#logo{
+    display: block;
+    color: white;/*#f86005;*/
+    padding-top: 15px;
+    padding-left: 10px;
+    border-right: 1px solid #f86005;
+    height: 36px;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+
+    width:  60px;
+    font-size: 20px;
+}
+#topbar #icon a#how-big{
+    display: block;
+    color: white;/*#f86005;*/
+    padding-top: 15px;
+    padding-left: 10px;
+    border-right: 1px solid #f86005;
+    height: 36px;
+    text-decoration: none;
+    float: left;
+
+    width:  100px;
+}
+
+.section #head {
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: 1px solid #f86005;
+}
+
+.section #content {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.section #content a {
+    color: #f86005;
+}
+
+#works span {
+    display: block;
+}
+#works a {
+    text-decoration: none;
+}
+#works .work {
+    border-bottom: 1px solid #f86005;
+    height: 72px;
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+}
+
+#works .work #thumb img {
+    border: 1px solid #f86005;
+    width: 60px;
+    height: 60px;
+    margin-left: 9px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+#works .work #info{
+    color: white;
+}
+
+#work-info {
+    border-top: 1px solid #f86005;
+    border-bottom: 1px solid #f86005;
+    width: auto;
+    color: white;
+}
+
+.marker {
+    border: 1px solid #f86005; 
+    position: absolute;
+    width:40px;
+    height:40px;
+    margin:0px;
+    padding:0px;
+}
+
+.marker.small {
+    width: 22px;
+    height: 22px;
+}
+.marker.medium {
+    width: 44px;
+    height: 44px;
+}
+.marker.large {
+    width: 200px;
+    height: 200px;
+}
+
+.notes_editor {
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1000;
+}
+.notes_editor .edit {
+    width: 50%;
+    float: left;
+    height: 30px;
+    display: block;
+    background-color: green;
+}
+.notes_editor .close {
+    width: 50%;
+    float: left;
+    height: 30px;
+    display: block;
+    background-color: orange;
+}
+.notes_editor .save {
+    width: 50%;
+    float: left;
+    height: 30px;
+    display: block;
+    background-color: green;
+}
+.notes_editor .discard {
+    width: 50%;
+    float: left;
+    height: 30px;
+    display: block;
+    background-color: red;
+}
+.notes_editor textarea.content {
+    width: 240px;
+}
+
+#size-overlay {
+    position: absolute;
+    margin:0px;
+    padding:0px;
+}
