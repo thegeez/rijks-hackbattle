@@ -1,7 +1,7 @@
 # hackbattle
 
-Entry for The Next Web hackbattle, using the Rijksmuseum API [0] and
-browserchannel [1].
+Entry for The Next Web hackbattle, using the [Rijksmuseum API][0] and
+[browserchannel][1].
 
 [0]: http://www.rijksmuseum.nl/api
 [1]: https://github.com/thegeez/clj-browserchannel
